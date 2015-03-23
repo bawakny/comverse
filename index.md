@@ -1,5 +1,5 @@
 ![comverse_Logo](https://...)
-*Free Your Markets From IT Complexity
+#Free Your Markets From IT Complexity
 Comverse Policy Studio 1st Ever Marketing-Oriented Policy Tool
 
 [LEARN MORE](http://......)
@@ -8,16 +8,16 @@ Comverse Policy Studio 1st Ever Marketing-Oriented Policy Tool
 ![img3](https://...)
 ![img4](https://...)
 
-[*Comverse Is Value-Added Service Global Market Leader.](http://......) 
+[#Comverse Is Value-Added Service Global Market Leader.](http://......) 
 [Read more](http://......)
 
-[*Managed Services World Congress Septemper 18-19 Berlin, Germany](http://......) 
+[#Managed Services World Congress Septemper 18-19 Berlin, Germany](http://......) 
 [Read More](http://......)
 
-[*Comverse: Enabling a world of Conected Possibilities](http://......) 
+[#Comverse: Enabling a world of Conected Possibilities](http://......) 
 [Watch Now](http://......)
 
-*WHAT CAN WE DO FOR YOU?
+#WHAT CAN WE DO FOR YOU?
 ![option1](https://...)
 [Data monetization](http://......) 
 ![option2](https://...)
@@ -31,23 +31,23 @@ Comverse Policy Studio 1st Ever Marketing-Oriented Policy Tool
 ![option6](https://...)
 [see all solutions](http://......) 
 
-*WHAT'S HAPPENING AT COMVERSE?
-*__NEWS__
-*__24__SEP
+#WHAT'S HAPPENING AT COMVERSE?
+#__NEWS__
+#__24__SEP
 Comverse Regains Lead in Convergent Charging Market Regains Lead in
 [All News](http://......)
 
-*__EVENTS__
-*__04__SEP
+#__EVENTS__
+#__04__SEP
 Managed Services World ongress, Brelin, Germany
 [All Events](http://......)
 
-*__BLOG__
-*__16__SEP
+#__BLOG__
+#__16__SEP
 Comverse Regains Lead in Convergent Charging Market
 [Our Blog](http://......)
 
-*SUCCES STORIES
+#SUCCES STORIES
 ![sergey_img](https://...)
 > We have very good and very warm relations with Comverse. We always acheivet...> - SERGEY KOROTYCH
 Deputy CTO, 3 Mob Ukraine
