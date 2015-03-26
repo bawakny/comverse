@@ -10,12 +10,31 @@ module.exports = function (grunt) {
 				src: 'src/js/<%= pkg.name %>.js',
 				dest: 'dist/js/<%= pkg.name %>.min.js'
 			}
+		},
+		
+		markdown: {
+			all: {
+				files: [
+				{
+					expand: true,
+					src: 'outline.md',
+					dest: './',
+					ext: '.html'
+				}
+				]
+			}
 		}
 	});
 
 	// Load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-
+	grunt.loadNpmTasks('grunt-markdown');
 	// Default task(s).
-	grunt.registerTask('default', ['uglify']);
+	grunt.registerTask('default', ['uglify','markdown']);
+	
+	
+	
+	
+	
+	
 };
