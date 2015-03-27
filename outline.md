@@ -36,7 +36,7 @@ Comverse Policy Studio 1st Ever Marketing-Oriented Policy Tool
 [see all solutions](http://......) 
 
 #WHAT'S HAPPENING AT COMVERSE?
-#__NEWS__
+#__NEWSss__
 #__24__SEP
 Comverse Regains Lead in Convergent Charging Market Regains Lead in
 ![allnewsImg](./img/eventListIconNews_hover.png)[All News](http://......)

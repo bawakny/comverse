@@ -23,14 +23,26 @@ module.exports = function (grunt) {
 				}
 				]
 			}
+		},
+		
+		watch: {
+			scripts: {
+				files: ['outline.md'],
+				tasks: ['markdown'],
+				options: {
+					spawn: false,
+				},
+			},
 		}
 	});
 
-	// Load the plugin that provides the "uglify" task.
+	// Load the plugins that provides the tasks.
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-markdown');
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	
 	// Default task(s).
-	grunt.registerTask('default', ['uglify','markdown']);
+	grunt.registerTask('default', ['watch','livereload']);
 	
 	
 	
