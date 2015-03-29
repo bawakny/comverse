@@ -42,7 +42,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	
 	// Default task(s).
-	grunt.registerTask('default', ['watch','livereload']);
+	grunt.registerTask('default', ['watch']);
 	
 	
 	
