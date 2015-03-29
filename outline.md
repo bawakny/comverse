@@ -19,7 +19,7 @@ Comverse Policy Studio 1st Ever Marketing-Oriented Policy Tool
 
 [Comverse: Enabling a world of Conected Possibilities](http://......) 
 
-![playvid](./img/lbtnArrow.png)[Watch Now](http://......)
+![playvid](./img/btnArrow.png)[Watch Now](http://......)
 
 #WHAT CAN WE DO FOR YOU?
 ![option1](./img/solution_icon_smart-money_hover.png)
