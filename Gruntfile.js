@@ -33,6 +33,17 @@ module.exports = function (grunt) {
 					spawn: false,
 				},
 			},
+		},
+		
+		validation: {
+			options: {
+				reset: grunt.option('reset') || false,
+				stoponerror: false,
+				relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.'] //ignores these errors 
+			},
+			files: {
+				src: ['index.html']
+		}
 		}
 	});
 
@@ -40,9 +51,10 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-markdown');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-html-validation');
 	
 	// Default task(s).
-	grunt.registerTask('default', ['watch']);
+	grunt.registerTask('default', ['validation']);
 	
 	
 	
