@@ -280,3 +280,31 @@ textarea {
         page-break-after: avoid;
     }
 }
+header{
+background-color: white;
+
+
+}
+.headlines{
+
+background-image :url("../img/slide-bg-complexity.jpg");
+
+background-size: cover;
+display:block;
+
+}
+
+.solutions{
+
+background-color: rgb(65, 162, 201);
+display:block;
+}
+
+.WhatsNew{
+background-image :url("../img/news-and-events-bg.jpg");
+
+background-size: cover;
+	background-repeat: no-repeat;
+display:block;
+
+}

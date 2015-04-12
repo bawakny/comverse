@@ -53,8 +53,9 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-html-validation');
 	
+	
 	// Default task(s).
-	grunt.registerTask('default', ['validation']);
+	grunt.registerTask('default', ['validation','watch']);
 	
 	
 	
