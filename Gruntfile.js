@@ -27,10 +27,11 @@ module.exports = function (grunt) {
 		
 		watch: {
 			scripts: {
-				files: ['outline.md'],
-				tasks: ['markdown'],
+				files: ['**'],
+				tasks: [],
 				options: {
 					spawn: false,
+					livereload: true
 				},
 			},
 		},
@@ -44,6 +45,16 @@ module.exports = function (grunt) {
 			files: {
 				src: ['index.html']
 		}
+		},
+		
+		connect: {
+			server: {
+				options: {
+					port: 8080,
+					base: '.',
+					livereload: true
+				}
+			}
 		}
 	});
 
@@ -52,10 +63,13 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-markdown');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-html-validation');
+	grunt.loadNpmTasks('grunt-contrib-connect');
+	grunt.loadNpmTasks('grunt-livereload');
 	
 	
 	// Default task(s).
-	grunt.registerTask('default', ['validation','watch']);
+	grunt.registerTask('default', ['connect','watch']);
+	grunt.registerTask('validate', ['validation']);
 	
 	
 	

@@ -9,9 +9,10 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 html {
-    color: #222;
+	 font-family: Open Sans;
+    color: white;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -95,7 +96,109 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header{
+background-color: white;
 
+
+}
+.headlines{
+
+background-image :url("../img/slide-bg-complexity.jpg");
+
+background-size: cover;
+display:block;
+
+}
+
+.solutions{
+
+background-color: rgb(65, 162, 201);
+display:block;
+}
+
+.WhatsNew{
+background-image :url("../img/news-and-events-bg.jpg");
+
+background-size: cover;
+	background-repeat: no-repeat;
+display:block;
+
+}
+
+footer{
+  color: #fff;
+  background-image: url("../img/11.jpg");
+background-color: rgb(31, 31, 31);
+
+}
+
+a {
+ color: #fff;
+text-decoration: none;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.highlight{
+
+background-color: rgba(255,255,255,0.4);
+}
+
+.highlight[class$="footer"]{
+
+background-color: rgba(255,255,255,0.1);
+}
+.highlight .headline{
+color: rgb(78,167,211);
+
+}
+.date{
+color: white;
+display:block;
+width:30px;
+background-color: rgb(51,153,204);
+
+}
+.separator[class$="footer"]{
+background-color: rgba(255,255,255,0.2);
+display: block;
+height:2px;
+width: 200px;
+}
+.button[class$="signup"]{
+background-color: rgb(65,175,230);
+border-radius: 2px;
+width: 65px;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.button{
+background-color: rgb(42,148,202);
+color:white;
+ border-radius: 5px;
+width: 190px;
+display: block;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+
+
+.success-stories{
+color:black;
+background-color: rgb(236,236,236);
+}
 
 
 
@@ -279,32 +382,4 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-}
-header{
-background-color: white;
-
-
-}
-.headlines{
-
-background-image :url("../img/slide-bg-complexity.jpg");
-
-background-size: cover;
-display:block;
-
-}
-
-.solutions{
-
-background-color: rgb(65, 162, 201);
-display:block;
-}
-
-.WhatsNew{
-background-image :url("../img/news-and-events-bg.jpg");
-
-background-size: cover;
-	background-repeat: no-repeat;
-display:block;
-
 }
