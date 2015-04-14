@@ -101,6 +101,20 @@ background-color: white;
 
 
 }
+
+header{
+color:black;
+}
+
+header a{
+text-decoration: none;
+color: black;
+}
+
+header a:hover{
+ text-decoration: underline;
+}
+
 .headlines{
 
 background-image :url("../img/slide-bg-complexity.jpg");
@@ -142,7 +156,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-footer ul{
+ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
