@@ -130,7 +130,7 @@ li {
     float:left;
     background:none repeat scroll 0% 0% #FCFCFC;
     width:961px;
-    height:260px;
+    height:auto;
     border-left:1px solid #D5D5D5;
     border-right:1px solid #D5D5D5;
     border-bottom:1px solid #D5D5D5;
@@ -293,7 +293,7 @@ li {
 .container {
     margin-right:auto;
     margin-left:auto;
-    width:940px;
+    width:70%;
 }
 .doMore .container {
     padding-bottom:200px;
@@ -509,9 +509,16 @@ li {
     padding:68px 0px 0px;
 }
 .ourCustomers .container {
-    width:950px;
+    width:100%;
     height: 400px;
 }
+.ourCustomers .customersBlock{
+margin-right: auto;
+margin-left: auto;
+width: 704px;}
+
+.ourCustomers .customersBlock ul:first-child {
+      top:5px;}
 .ourCustomers h3 {
     color:#565656;
     font-size:42px;
@@ -519,9 +526,7 @@ li {
     text-align:center;
     text-transform:uppercase;
 }
-.ourCustomers h3+.customer-li {
-    top:5px;
-}
+
 .ourCustomers,.ourCustomers a {
     color:#6D6D6D;
 }
@@ -534,6 +539,8 @@ li {
     padding:0px;
     width:352px;
     height:323px !important;
+    margin-right: auto;
+margin-left: auto;
 }
 .ourCustomers .bigBlock {
     width:342px;
@@ -760,6 +767,7 @@ footer .linkedinIcon {
 }
 footer .bottomMenu {
     overflow:hidden;
+    width :535px;
 }
 footer .bottomMenu li:first-child {
     padding-left:0px;
@@ -794,8 +802,42 @@ footer .bottomMenu li {
     transition:all 1s ease 0s;
     height:31px;
     width:64px;
-    z-index: 9000;
+    z-index: 9000;}
+
+
+
+@media screen and  (max-width: 768px) {
+   header{
+    position: relative;
+   }
+   .wrapper {
+    padding-top:0px;
 }
+    .ourCustomers .customersBlock {
+        width: 355px;
+    }
+    .ourCustomers .container h3{
+    font-size: 21px;}
+
+    .headlines .headlineBox-withoutButton h3{
+
+        font-size: 26px;
+    }
+    .headlines .headlineBox-withoutButton .InnerHeadline{
+
+        font-size: 15px;
+    }
+    .BlueButton-text {
+
+        font-size:12px; 
+    }
+
+    .doMore .container {
+    
+    width: 100%;
+}
+}
+
 /* ========================================================================== Helper classes ========================================================================== */
 /* * Hide visually and from screen readers:* http://juicystudio.com/article/screen-readers-display-none.php */
 .hidden {
