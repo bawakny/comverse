@@ -293,14 +293,13 @@ li {
 .container {
     margin-right:auto;
     margin-left:auto;
-    width:70%;
+    width:100%;
 }
-.doMore .container {
-    padding-bottom:200px;
+
 }
 .doMore>.container>ul {
     width:100%;
-    float:left;
+   
     position:relative;
     width:100%;
     float:left;
@@ -314,8 +313,8 @@ li {
     list-style-type:none;
 }
 .doMore .container ul li {
-    float:left;
-    width:33.3333%;
+   
+    width:25%;
     box-sizing:border-box;
     padding:0px 5%;
     font:1.5em/140% Open Sans;
@@ -354,6 +353,10 @@ li {
 .topPriorities {
     padding:30px 0px;
     display:block;
+}
+.topPriorities .container{
+width: 90%;
+    
 }
 .topPriorities .container h3 {
     color:#585951;
@@ -784,8 +787,13 @@ footer .bottomMenu li {
     padding:0px 8px;
     margin-top:7px;
 }
+
+footer .small-screen{
+    display:none;
+}
 .wrapper {
     padding-top:90px;
+    width: 100%
 }
 .backTop {
     z-index:10;
@@ -793,9 +801,8 @@ footer .bottomMenu li {
     height:31px;
     margin-top:-31px;
     position:relative;
-    margin-right:auto;
-    margin-left:auto;
-    width:940px;
+    margin-left: 10%;
+    width: 65px;
 }
 .backTop a {
     display:block;
@@ -826,9 +833,7 @@ footer .bottomMenu li {
     position: relative;
     height: 60px;
    }
-   .topNavBar .nav-links , .topNavBar .nav-search-text{
-    display:none;
-   }
+  
 
 .topNavBar .searchField{
 height: auto;
@@ -845,16 +850,15 @@ background: url("../img/searchBtnMobile.png") no-repeat scroll center center, li
 
    }
 
-     .navMenu { float: none;
+     .navMenu { 
     height: auto;
-
-
-    float: none;
+     float: none;
     height: auto;
     left: auto;
     padding: 0px;
     margin: 0px;
-    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.2) inset;}
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.2) inset;
+}
 
    .wrapper {
     padding-top:0px;
@@ -886,9 +890,10 @@ height: auto;
         font-size:12px; 
     }
 
-    .doMore .container {
+     .container {
     
     width: 100%;
+    height: auto;
 }
 
 .ourCustomers .customersBlock .customer-li {
@@ -907,6 +912,10 @@ margin:auto;
 
 }
 
+.icons li {
+   
+    width: 47%;}
+
 .industrySolutins .container, .solutions .container{
     width:100%;
 
@@ -917,6 +926,83 @@ font-size: 13px;
 
 .solutions-li {
     width: 50%}
+
+.doMore .container ul li {
+    width: 100%;
+    border-right: none;}
+.arrow-link {
+    margin-top: 15px;
+    }
+
+    footer .shareMenu a {
+    float: none;
+}
+
+ footer .small-screen{
+    display: block;
+ width: auto;
+overflow: hidden;
+height: auto;
+margin-bottom: 0px;
+
+}  
+
+    footer .small-screen > li {
+    display: block;
+    height: 37px;
+    border-bottom: 1px solid #000;
+    margin: 1%;
+}
+ footer .small-screen > li:not(.copy) > a{
+    display: block;
+box-shadow: none;
+color: #FFF;
+text-decoration: none;
+text-transform: uppercase;
+background: none repeat scroll 0% 0% transparent;
+padding: 5px;
+width:100%;
+}
+
+ footer .small-screen > li:not(.copy):hover {
+    background-color:rgba(250, 250, 250, 0.4);
+ }
+
+footer .small-screen .shareMenu{
+    padding-left: 5px; 
+
+}
+footer .small-screen .copy{
+margin: -5px -10px -10px;
+background: none repeat scroll 0% 0% #FFF;}
+
+
+.copy .bottomMenu{
+ 
+width: 340px;
+height: 30px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.copy .bottomMenu li:hover{
+background: url("../img/footerBG.png") repeat scroll center 0px, radial-gradient(ellipse at center center , #FFF 0%, transparent 100%) repeat scroll 0% 0% transparent;
+}
+
+
+.copy .bottomMenu li , .copy .bottomMenu a {
+    color: black;
+}
+    .backTop{
+        margin-left: auto;
+        margin-right: 1%;
+    }
+
+     .footerBox {
+        display: none;
+    }
+}
 /* ========================================================================== Helper classes ========================================================================== */
 /* * Hide visually and from screen readers:* http://juicystudio.com/article/screen-readers-display-none.php */
 .hidden {
